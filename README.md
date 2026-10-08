@@ -2,6 +2,16 @@
 
 Activepieces piece for [looot](https://looot.ai). looot gives an AI agent or a flow one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. You see the price before a run, and a failed call costs nothing. No subscription, top up from $5.
 
+## Install for agents
+
+```bash
+claude mcp add --transport http looot https://api.looot.ai/mcp
+```
+
+Activepieces: npm package @loootai/piece-looot (Activepieces: Settings, My Pieces, Install Piece)
+
+See also: [awesome-looot-use-cases](https://github.com/loootai/awesome-looot-use-cases) (copy-paste recipes) and [awesome-gtm](https://github.com/loootai/awesome-gtm) (open-source GTM tools).
+
 ## Install in Activepieces
 
 1. Open Settings, My Pieces, Install Piece.
