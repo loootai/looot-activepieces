@@ -1,4 +1,8 @@
+<p align="center"><img src="assets/hero.png" alt="looot-activepieces: looot piece for Activepieces" width="100%"></p>
+
 # @loootai/piece-looot
+
+[![License](https://img.shields.io/github/license/loootai/looot-activepieces)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
 Activepieces piece for [looot](https://looot.ai). looot gives an AI agent or a flow one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. You see the price before a run, and a failed call costs nothing. No subscription, top up from $5.
 
