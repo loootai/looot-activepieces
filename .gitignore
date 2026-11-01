@@ -3,3 +3,6 @@ dist/
 *.tgz
 .env
 .env.*
+
+# Local activepieces publishing kit (account-specific, may hold a token)
+activepieces-publishing/
