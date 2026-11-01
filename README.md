@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/github/license/loootai/looot-activepieces)](LICENSE) [![Docs](https://img.shields.io/badge/docs-docs.looot.ai-12A06A)](https://docs.looot.ai)
 
-Activepieces piece for [looot](https://looot.ai). looot gives an AI agent or a flow one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. You see the price before a run, and a failed call costs nothing. No subscription, top up from $5.
+Activepieces piece for [looot](https://looot.ai). looot gives an AI agent or a flow one key and one prepaid balance for 4,200+ data API endpoints from 300+ providers: work emails, phone numbers, company and people search, Google results, web pages, news, LinkedIn profiles, local businesses. You see the price before a run, and a failed call costs nothing. No subscription, top up from $5.
 
 ## Install for agents
 
@@ -38,7 +38,7 @@ Create an agent token in the looot dashboard under Settings, Agent tokens. Tick 
 | Get Run | `GET /v1/runs/{id}` | Free |
 | Get Balance | `GET /v1/balance` | Free |
 
-A typical flow is Search Catalog, then Inspect Operation to read the exact field names, then Run Operation with the input as JSON, for example endpoint `job:people.email.find` and input `{"fullName": "Ada Lovelace", "domain": "example.com"}`. Run Operation waits up to 20 seconds. If the run is not done it returns a run ID, and Get Run reads the result. The same idempotency key with the same input never pays twice; the default key is built from the flow run ID.
+A typical flow is Search Catalog, then Inspect Operation to read the exact field names, then Run Operation with the input as JSON, for example endpoint `job:people.email.find` and input `{"first_name": "Ada", "last_name": "Lovelace", "domain": "example.com"}`. Run Operation waits up to 20 seconds. If the run is not done it returns a run ID, and Get Run reads the result. The same idempotency key with the same input never pays twice; the default key is built from the flow run ID.
 
 ## Build
 

@@ -1,8 +1,8 @@
 # looot-activepieces
 
-> looot piece for Activepieces: search, inspect and run 2,500+ data API endpoints
+> looot piece for Activepieces: search, inspect and run 4,200+ data API endpoints
 
-looot is one key and one prepaid balance for 2,500+ data API endpoints from 90+ providers. The agent searches the catalog, sees the price before it runs, and pays per call.
+looot is one key and one prepaid balance for 4,200+ data API endpoints from 300+ providers. The agent searches the catalog, sees the price before it runs, and pays per call.
 
 ## Install
 
